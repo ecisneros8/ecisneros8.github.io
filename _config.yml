@@ -1,5 +1,14 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
 title: The Cisneros Group
-description: We conduct research on high-speed reacting flows using computational methods
+description: Computational research on high-speed reacting flows
+
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+
+# ─── Hero section ──────────────────────────────────────────────────────────────
+# By default the homepage shows an animated turbulent-flow simulation.
+# To swap it for a static image instead:
+#   1. Drop your image at  assets/images/hero.jpg  (any format/path works)
+#   2. Uncomment and update the line below:
+# hero_image: assets/images/hero.jpg

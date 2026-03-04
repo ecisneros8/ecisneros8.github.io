@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────────────────── -->
+  <nav class="site-nav" role="navigation">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">{{ site.title }}</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      {% assign cur = page.url %}
+      <a href="{{ '/' | relative_url }}"         class="nav-link{% if cur == '/' %} active{% endif %}">Home</a>
+      <a href="{{ '/research/' | relative_url }}" class="nav-link{% if cur == '/research/' %} active{% endif %}">Research</a>
+      <a href="{{ '/people/' | relative_url }}"   class="nav-link{% if cur == '/people/' %} active{% endif %}">People</a>
+      <a href="{{ '/teaching/' | relative_url }}" class="nav-link{% if cur == '/teaching/' %} active{% endif %}">Teaching</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero (home page only) ──────────────────────────────────────────── -->
+  {% if page.hero %}
+  <section class="hero-section" aria-label="Hero">
+    {% if site.hero_image %}
+      <img src="{{ site.hero_image | relative_url }}" alt="{{ site.title }}" class="hero-image">
+    {% else %}
+      <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+    {% endif %}
+    <div class="hero-overlay">
+      <h1 class="hero-title">{{ site.title }}</h1>
+      <p class="hero-subtitle">{{ site.description }}</p>
+    </div>
+  </section>
+  {% else %}
+  <!-- ── Page banner (all other pages) ─────────────────────────────────── -->
+  <div class="page-banner">
+    <h1>{{ page.title }}</h1>
+  </div>
+  {% endif %}
+
+  <!-- ── Main content ───────────────────────────────────────────────────── -->
+  <main class="site-content" id="main-content">
+    {{ content }}
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      <p class="footer-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="{{ '/people/' | relative_url }}">People</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ────────────────────────────────────────────────────────── -->
+  {% if page.hero %}{% unless site.hero_image %}
+  <script src="{{ '/assets/js/simulation.js' | relative_url }}"></script>
+  {% endunless %}{% endif %}
+  <script>
+    // Mobile nav toggle
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('nav-links');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function () {
+        var open = menu.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }());
+  </script>
+
+</body>
+</html>

@@ -11,4 +11,4 @@ plugins:
 # To swap it for a static image instead:
 #   1. Drop your image at  assets/images/hero.jpg  (any format/path works)
 #   2. Uncomment and update the line below:
-# hero_image: assets/images/hero.jpg
+hero_image: assets/images/coverart.png

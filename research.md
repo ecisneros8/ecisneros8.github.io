@@ -7,20 +7,16 @@ title: Research
   <h2>Overview</h2>
   <p>
     The Cisneros Group develops and applies high-fidelity computational methods
-    to study <strong>turbulent reacting flows</strong> in aerospace propulsion
-    contexts. Our work spans direct numerical simulation (DNS), large-eddy
-    simulation (LES), and reduced-order modeling, with a focus on regimes where
+    to study <strong>turbulent reacting flows</strong>. Our work includes direct
+    numerical simulation (DNS), large-eddy simulation (LES), and reduced modeling,
+    with a focus on regimes where
     compressibility, shock waves, and chemical kinetics interact at high Mach
     numbers.
   </p>
   <p>
-    [<em>Expand this paragraph: describe your specific research philosophy,
-    the open questions you are tackling, and what makes your approach unique.</em>]
-  </p>
-  <p>
-    Our solvers are developed for leadership-class HPC resources (ORNL
-    Summit/Frontier, ALCF Polaris) and leverage GPU acceleration to enable
-    simulations at parameter regimes that were previously inaccessible.
+    Our solvers are developed for leadership-class HPC resources and leverage
+    GPU acceleration to enable simulations at regimes that were previously
+    inaccessible.
   </p>
 </section>
 

@@ -32,17 +32,18 @@ hero: true
       <p>
         <strong>Esteban Cisneros--Garibay</strong> is an Assistant Professor at the
         University of Tennessee Space Institute (UTSI) and the University of
-        Tennessee, Knoxville (UTK).
-        [<em>Add a 2–3 sentence bio here: your position, research focus, and what
-        draws you to this work.</em>]
+        Tennessee, Knoxville (UTK). He specializes in high-speed reacting flows
+	and computational methods. 
       </p>
       <p>
-        Prior to joining UTSI, he completed his [degree/postdoc] at
-        [previous institution]. His research is supported by [funding agencies].
+        Esteban obtained his PhD in Theoretical &amp; Applied Mechanics at the
+	University of Illinois in 2021. He was a Presidential Postdoctoral
+	Fellow at Princeton University from 2021 to 2022. He was a staff
+	scientist at Bayer R&D from 2022 to 2025.
       </p>
       <p>
         <strong>Email:</strong> <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a><br>
-        <strong>Office:</strong> [G Wing &amp; 222], UTSI, Tullahoma, TN 37388
+        <strong>Office:</strong> G-222, UTSI, Tullahoma, TN 37388
       </p>
     </div>
   </div>
@@ -75,6 +76,7 @@ hero: true
       </span>
     </div>
 
+    <! --
     <div class="news-item">
       <span class="news-date">Feb 2026</span>
       <span class="news-text">
@@ -82,12 +84,14 @@ hero: true
         "<a href="#">[Paper title placeholder]</a>."
       </span>
     </div>
+    -->
 
     <div class="news-item">
       <span class="news-date">Feb 2026</span>
       <span class="news-text">
-        Esteban will present work on compressible flames at 2026 the
-        International Symposium on Combustion.
+        Esteban;s paper on compressible flames has been accepted
+	for presentation at 2026 the International Symposium
+	on Combustion.
       </span>
     </div>
 
@@ -113,7 +117,7 @@ hero: true
       of turbulent reacting flows.
     </p>
     <p>
-      <strong>PhD students:</strong> Please apply to the UTSI PhD program, and fill out this <a href="https://forms.gle/UTaPee69qpb6Gk426" target="_blank" rel="noopener">[form].
+      <strong>PhD students:</strong> Please apply to the UTSI PhD program, and fill out this <a href="https://forms.gle/UTaPee69qpb6Gk426" target="_blank" rel="noopener">[form]</a>.
       You can send a follow-up email to
       <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a>.
       Admitted students are typically supported through research assistantships.
@@ -122,15 +126,13 @@ hero: true
       <strong>MS students:</strong> There are no openings for students seeking a MS degree. 
     </p>
     <p>
+      <strong> Undergraduate students:</strong> Research opportunities are available through independent study, and the UTSI summer internship program. Stop by or send a short email describing your interests.
+    </p>
+    <p>
       <strong>Postdoctoral researchers:</strong> Funded positions are announced
       here when available. Candidates with strong backgrounds in DNS/LES,
       numerical methods, or combustion modeling are encouraged to reach out at
       any time.
-    </p>
-    <p>
-      <strong>Undergraduate students at UTK/UTSI:</strong> Research opportunities
-      (SURF, independent study, course credit) are available. Stop by or send
-      a short email describing your interests.
     </p>
   </div>
 </section>

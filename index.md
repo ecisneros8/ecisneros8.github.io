@@ -15,7 +15,7 @@ hero: true
           1. Drop your photo at  assets/images/profile.jpg
           2. Replace the placeholder div below with:
                <img src="/assets/images/profile.jpg"
-                    alt="Dr. Esteban Cisneros"
+                    alt="Esteban Cisneros--Garibay"
                     class="profile-photo">
       -->
       <div class="profile-placeholder">
@@ -30,7 +30,7 @@ hero: true
     </div>
     <div>
       <p>
-        <strong>Dr. Esteban Cisneros</strong> is an Assistant Professor at the
+        <strong>Esteban Cisneros--Garibay</strong> is an Assistant Professor at the
         University of Tennessee Space Institute (UTSI) and the University of
         Tennessee, Knoxville (UTK).
         [<em>Add a 2–3 sentence bio here: your position, research focus, and what
@@ -42,7 +42,7 @@ hero: true
       </p>
       <p>
         <strong>Email:</strong> <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a><br>
-        <strong>Office:</strong> [Building &amp; Room], UTSI, Tullahoma, TN 37388
+        <strong>Office:</strong> [G Wing &amp; 222], UTSI, Tullahoma, TN 37388
       </p>
     </div>
   </div>
@@ -54,10 +54,10 @@ hero: true
   <h2>Research Interests</h2>
   <ul class="interests-list">
     <li>Turbulent combustion and high-speed reacting flows</li>
+    <li>Shock-wave / turbulence interactions and their effect on mixing and combustion</li>
+    <li>Bayesian uncertainty quantification (UQ) and model reduction</li>
     <li>Direct numerical simulation (DNS) and large-eddy simulation (LES) of compressible flows</li>
-    <li>Shock-wave / boundary-layer interactions and their effect on mixing and ignition</li>
-    <li>Uncertainty quantification (UQ) for high-fidelity CFD solvers</li>
-    <li>[Add additional interest — e.g., reduced-order modeling, machine learning for turbulence]</li>
+    <li>Code generation and programming languages</li>
   </ul>
 </section>
 
@@ -70,13 +70,13 @@ hero: true
     <div class="news-item">
       <span class="news-date">Fall 2026</span>
       <span class="news-text">
-        New graduate course on <strong>Uncertainty Quantification for Computational Science</strong>
+        Graduate course on <strong>Uncertainty Quantification for Computational Science</strong> [AE 504]
         coming this fall — see <a href="/teaching/">Teaching</a> for details.
       </span>
     </div>
 
     <div class="news-item">
-      <span class="news-date">Jan 2026</span>
+      <span class="news-date">Feb 2026</span>
       <span class="news-text">
         New paper accepted at <em>[Journal Name]</em>:
         "<a href="#">[Paper title placeholder]</a>."
@@ -84,17 +84,17 @@ hero: true
     </div>
 
     <div class="news-item">
-      <span class="news-date">Nov 2025</span>
+      <span class="news-date">Feb 2026</span>
       <span class="news-text">
-        Esteban presented work on compressible combustion at the
-        International Symposium on Combustion (ISC&nbsp;2025).
+        Esteban will present work on compressible flames at 2026 the
+        International Symposium on Combustion.
       </span>
     </div>
 
     <div class="news-item">
       <span class="news-date">Aug 2025</span>
       <span class="news-text">
-        [Add a news item — e.g., new grant awarded, new team member, conference talk.]
+        Esteban joins UTSI as assistant professor. 
       </span>
     </div>
 
@@ -109,14 +109,17 @@ hero: true
     <h3>Openings in The Cisneros Group</h3>
     <p>
       We are always looking for motivated researchers interested in
-      computational fluid dynamics, high-performance computing, and the physics
+      fluid mechanics, high-performance computing, and the physics
       of turbulent reacting flows.
     </p>
     <p>
-      <strong>PhD / MS students:</strong> Send your CV, unofficial transcripts,
-      and a brief statement of research interest to
+      <strong>PhD students:</strong> Please apply to the UTSI PhD program, and fill out this <a href="https://forms.gle/UTaPee69qpb6Gk426" target="_blank" rel="noopener">[form].
+      You can send a follow-up email to
       <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a>.
       Admitted students are typically supported through research assistantships.
+    </p>
+    <p>
+      <strong>MS students:</strong> There are no openings for students seeking a MS degree. 
     </p>
     <p>
       <strong>Postdoctoral researchers:</strong> Funded positions are announced

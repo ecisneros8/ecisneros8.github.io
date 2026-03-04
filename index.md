@@ -76,7 +76,7 @@ hero: true
       </span>
     </div>
 
-    <! --
+    <!--
     <div class="news-item">
       <span class="news-date">Feb 2026</span>
       <span class="news-text">
@@ -89,7 +89,7 @@ hero: true
     <div class="news-item">
       <span class="news-date">Feb 2026</span>
       <span class="news-text">
-        Esteban;s paper on compressible flames has been accepted
+        Esteban's paper on compressible flames has been accepted
 	for presentation at 2026 the International Symposium
 	on Combustion.
       </span>
@@ -117,7 +117,7 @@ hero: true
       of turbulent reacting flows.
     </p>
     <p>
-      <strong>PhD students:</strong> Please apply to the UTSI PhD program, and fill out this <a href="https://forms.gle/UTaPee69qpb6Gk426" target="_blank" rel="noopener">[form]</a>.
+      <strong>PhD students:</strong> Please apply to the UTSI PhD program, and fill out this <a href="https://forms.gle/UTaPee69qpb6Gk426" target="_blank" rel="noopener">form</a>.
       You can send a follow-up email to
       <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a>.
       Admitted students are typically supported through research assistantships.

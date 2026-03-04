@@ -90,8 +90,8 @@ hero: true
       <span class="news-date">Feb 2026</span>
       <span class="news-text">
         Esteban's paper on compressible flames has been accepted
-	for presentation at 2026 the International Symposium
-	on Combustion.
+	for presentation at the 41st International Symposium
+	on Combustion (2026).
       </span>
     </div>
 

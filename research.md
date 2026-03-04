@@ -25,41 +25,7 @@ title: Research
   <div class="section-label">Peer-Reviewed Articles</div>
   <h2>Publications</h2>
 
-  <ul class="pub-list">
-
-    <li class="pub-item">
-      <div class="pub-title">
-        <a href="https://doi.org/PLACEHOLDER" target="_blank" rel="noopener">
-          [Paper title — replace with full title]
-        </a>
-      </div>
-      <div class="pub-authors">E. Cisneros, [Co-author A], [Co-author B]</div>
-      <div class="pub-journal"><em>[Journal Name]</em>, vol. XX, pp. XXX–XXX, 2025.</div>
-    </li>
-
-    <li class="pub-item">
-      <div class="pub-title">
-        <a href="https://doi.org/PLACEHOLDER" target="_blank" rel="noopener">
-          [Paper title — replace with full title]
-        </a>
-      </div>
-      <div class="pub-authors">E. Cisneros, [Co-author]</div>
-      <div class="pub-journal"><em>[Conference or Journal]</em>, 2024.</div>
-    </li>
-
-    <li class="pub-item">
-      <div class="pub-title">
-        <a href="https://doi.org/PLACEHOLDER" target="_blank" rel="noopener">
-          [Paper title — replace with full title]
-        </a>
-      </div>
-      <div class="pub-authors">[Co-author], E. Cisneros, [Co-author]</div>
-      <div class="pub-journal"><em>[Journal Name]</em>, vol. XX, pp. XXX–XXX, 2023.</div>
-    </li>
-
-    <!-- Add more entries above this comment, following the same pattern -->
-
-  </ul>
+  {% bibliography %}
 </section>
 
 <!-- ── Current Projects ───────────────────────────────────── -->

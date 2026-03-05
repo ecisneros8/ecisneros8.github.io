@@ -76,7 +76,7 @@ hero: true
     <div class="news-item">
       <span class="news-date">Fall 2026</span>
       <span class="news-text">
-        Graduate course on <strong>Uncertainty Quantification for Computational Science</strong> [AE 504]
+        Graduate course on <strong>Uncertainty Quantification for Predictive Science</strong> [AE 504]
         coming this fall — see <a href="/teaching/">Teaching</a> for details.
       </span>
     </div>

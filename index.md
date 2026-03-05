@@ -14,10 +14,11 @@ hero: true
         Profile photo:
           1. Drop your photo at  assets/images/profile.jpg
           2. Replace the placeholder div below with:
-               <img src="/assets/images/profile.jpg"
-                    alt="Esteban Cisneros-Garibay"
+               <img src="/assets/images/profile.png"
+                    alt="Esteban Cisneros--Garibay"
                     class="profile-photo">
       -->
+      <!--
       <div class="profile-placeholder">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
              fill="none" stroke="currentColor" stroke-width="1.5"
@@ -25,8 +26,12 @@ hero: true
           <circle cx="12" cy="8" r="4"/>
           <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
         </svg>
-        <span>Place your photo at<br><code>assets/images/profile.jpg</code></span>
+        <span>Place your photo at<br><code>assets/images/profile.png</code></span>
       </div>
+      -->
+      <img src="/assets/images/profile.png"
+      	   alt="Esteban Cisneros--Garibay"
+	   class="profile-photo">	   
     </div>
     <div>
       <p>
@@ -71,7 +76,7 @@ hero: true
     <div class="news-item">
       <span class="news-date">Fall 2026</span>
       <span class="news-text">
-        Graduate course on <strong>Uncertainty Quantification for Computational Science</strong> [AE 504]
+        Graduate course on <strong>Uncertainty Quantification for Predictive Science</strong> [AE 504]
         coming this fall — see <a href="/teaching/">Teaching</a> for details.
       </span>
     </div>

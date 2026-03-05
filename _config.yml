@@ -5,6 +5,14 @@ permalink: pretty
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  bibliography: cisneros.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
 
 # ─── Hero section ──────────────────────────────────────────────────────────────
 # By default the homepage shows an animated turbulent-flow simulation.

@@ -73,6 +73,13 @@ hero: true
   <h2>News</h2>
   <div class="news-list">
 
+  <div class="news-item">
+      <span class="news-date">March 2026</span>
+      <span class="news-text">
+        Vincenzo Russo starts as postdoctoral researcher in our group. Welcome Vincenzo!
+      </span>
+    </div>
+
     <div class="news-item">
       <span class="news-date">Fall 2026</span>
       <span class="news-text">

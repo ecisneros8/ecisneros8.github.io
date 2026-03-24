@@ -35,7 +35,7 @@ hero: true
     </div>
     <div>
       <p>
-        <strong>Esteban Cisneros--Garibay</strong> is an Assistant Professor at the
+        <strong>Esteban Cisneros-Garibay</strong> is an Assistant Professor at the
         University of Tennessee Space Institute (UTSI) and the University of
         Tennessee, Knoxville (UTK). He specializes in high-speed reacting flows
 	and computational methods. 
@@ -47,7 +47,7 @@ hero: true
 	scientist at Bayer R&D from 2022 to 2025.
       </p>
       <p>
-        <strong>Email:</strong> <a href="mailto:ecisneros@utsi.edu">ecisneros@utsi.edu</a><br>
+        <strong>Email:</strong> <a href="mailto:ecisnero@utsi.edu">ecisnero@utsi.edu</a><br>
         <strong>Office:</strong> G-222, UTSI, Tullahoma, TN 37388
       </p>
     </div>

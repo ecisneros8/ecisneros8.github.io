@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   {% seo %}
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
   {% if page.hero %}
   <section class="hero-section" aria-label="Hero">
     {% if site.hero_image %}
-      <div class="hero-image" role="img" aria-label="{{ site.title }}" style="background-image: url('{{ site.hero_image | relative_url }}');"></div>
+      <div class="hero-image" role="img" aria-label="{{ site.title }}" style="background-image: url('{{ site.hero_image | relative_url }}'); background-repeat: repeat-x; background-size: auto 100%; background-position: center;"></div>
     {% else %}
       <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
     {% endif %}

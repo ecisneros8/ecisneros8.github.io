@@ -20,9 +20,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:placeholder@utsi.edu">[Postdoc Name Placeholder]</a>
+            <a href="mailto:russovincenzo87@hotmail.it">Vincenzo Russo</a>
           </span>
-          <span class="person-role">Research area: [Topic]</span>
+          <span class="person-role">Research area: ablation-induced hydrodynamics, adjoint-based receptivity and transition</span>
         </div>
       </li>
 
@@ -48,19 +48,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:placeholder@vols.utk.edu">[PhD Student Name]</a>
+            <a href="mailto:jsnuggs@vols.utk.edu">James Snuggs</a>
           </span>
-          <span class="person-role">Dissertation: [Working title / topic]</span>
-        </div>
-      </li>
-
-      <li class="person-item">
-        <div class="person-avatar">PP</div>
-        <div class="person-info">
-          <span class="person-name">
-            <a href="mailto:placeholder@vols.utk.edu">[PhD Student Name]</a>
-          </span>
-          <span class="person-role">Dissertation: [Working title / topic]</span>
+          <span class="person-role">Dissertation: Computational modeling of arc discharges</span>
         </div>
       </li>
 
@@ -78,9 +68,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:placeholder@vols.utk.edu">[MS Student Name]</a>
+            <a href="mailto:sbrollia@vols.utk.edu">Seth Brolliar</a>
           </span>
-          <span class="person-role">Thesis: [Thesis topic]</span>
+          <span class="person-role">Thesis: Plasma-induced boundary layer instabilities</span>
         </div>
       </li>
 
@@ -98,9 +88,19 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:placeholder@vols.utk.edu">[Undergraduate Name]</a>
+            <a href="mailto:rdial@vols.utk.edu">Roman Dial</a>
           </span>
-          <span class="person-role">Project: [Short description]</span>
+          <span class="person-role">Project: Multi-phase flows</span>
+        </div>
+      </li>
+
+      <li class="person-item">
+        <div class="person-avatar">PP</div>
+        <div class="person-info">
+          <span class="person-name">
+            <a href="mailto:bmeadow9@vols.utk.edu">Bryce Meadow</a>
+          </span>
+          <span class="person-role">Project: Cavity flows</span>
         </div>
       </li>
 

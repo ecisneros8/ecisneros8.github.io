@@ -20,9 +20,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:russovincenzo87@hotmail.it">Vincenzo Russo</a>
+            <a href="mailto:faznaran@utsi.edu">Francis Aznaran</a>
           </span>
-          <span class="person-role">Research area: ablation-induced hydrodynamics, adjoint-based receptivity and transition</span>
+          <span class="person-role">Research area: finite-element methods, code generation</span>
         </div>
       </li>
 
@@ -51,6 +51,16 @@ title: People
             <a href="mailto:jsnuggs@vols.utk.edu">James Snuggs</a>
           </span>
           <span class="person-role">Dissertation: Computational modeling of arc discharges</span>
+        </div>
+      </li>
+
+      <li class="person-item">
+        <div class="person-avatar">PP</div>
+        <div class="person-info">
+          <span class="person-name">
+            <a href="mailto:towens35@vols.utk.edu">Tyler Owens</a>
+          </span>
+          <span class="person-role">Dissertation: Sensitivities of flows with discontinuities \& UQ</span>
         </div>
       </li>
 
@@ -88,9 +98,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:rdial@vols.utk.edu">Roman Dial</a>
+            <a href="mailto:rdial@vols.utk.edu">Kevin Bobbit</a>
           </span>
-          <span class="person-role">Project: Multi-phase flows</span>
+          <span class="person-role">Project: Thermal nuclear propulsion</span>
         </div>
       </li>
 
@@ -98,9 +108,9 @@ title: People
         <div class="person-avatar">PP</div>
         <div class="person-info">
           <span class="person-name">
-            <a href="mailto:bmeadow9@vols.utk.edu">Bryce Meadow</a>
+            <a href="mailto:chill137@vols.utk.edu">Colin Hill</a>
           </span>
-          <span class="person-role">Project: Cavity flows</span>
+          <span class="person-role">Project: Code generation and UQ</span>
         </div>
       </li>
 

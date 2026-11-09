@@ -3,22 +3,15 @@ layout: default
 title: Research
 ---
 
-<section class="content-section">
-  <h2>Overview</h2>
-  <p>
-    The Cisneros Group develops and applies high-fidelity computational methods
-    to study <strong>turbulent reacting flows</strong>. Our work includes direct
-    numerical simulation (DNS), large-eddy simulation (LES), and reduced modeling,
-    with a focus on regimes where
-    compressibility, shock waves, and chemical kinetics interact at high Mach
-    numbers.
-  </p>
-  <p>
-    Our solvers are developed for leadership-class HPC resources and leverage
-    GPU acceleration to enable simulations at regimes that were previously
-    inaccessible.
-  </p>
-</section>
+<section class="content-section"> <h2>Overview</h2> <p> The Cisneros
+  Group develops and applies high-fidelity computational methods to
+  study <strong>multi-physics flows</strong>. Our work includes direct
+  numerical simulation (DNS), large-eddy simulation (LES), and reduced
+  modeling, with a focus on regimes where compressibility, shock
+  waves, and chemical kinetics interact at high Mach numbers.  </p>
+  <p> Our solvers are developed for leadership-class HPC resources and
+  leverage GPU acceleration to enable simulations at regimes that were
+  previously inaccessible.  </p> </section>
 
 <!-- ── Publications ───────────────────────────────────────── -->
 <section class="content-section">

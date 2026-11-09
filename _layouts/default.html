@@ -28,7 +28,7 @@
   {% if page.hero %}
   <section class="hero-section" aria-label="Hero">
     {% if site.hero_image %}
-      <img src="{{ site.hero_image | relative_url }}" alt="{{ site.title }}" class="hero-image">
+      <div class="hero-image" role="img" aria-label="{{ site.title }}" style="background-image: url('{{ site.hero_image | relative_url }}');"></div>
     {% else %}
       <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
     {% endif %}
